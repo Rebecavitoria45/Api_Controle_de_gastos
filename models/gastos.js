@@ -1,5 +1,5 @@
 const { DataTypes } = require("sequelize");
-const sequelize = require("./database/connection");
+const sequelize = require("../database/connection");
 
 const Gasto = sequelize.define("Gasto", {
 
@@ -14,11 +14,13 @@ const Gasto = sequelize.define("Gasto", {
   },
 
   categoria: {
-    type: DataTypes.STRING
+    type: DataTypes.STRING,
+    allowNull: false
   },
 
   data: {
-    type: DataTypes.DATEONLY
+    type: DataTypes.DATE,
+    allowNull: false
   }
 
 });
