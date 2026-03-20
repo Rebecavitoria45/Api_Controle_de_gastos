@@ -33,7 +33,7 @@ A API possui as seguintes funcionalidades:
 ###  Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/api-controle-gastos.git
+git clone https://github.com/Rebecavitoria45/Api_Controle_de_gastos.git
 ```
 
 ###  Acessar a pasta do projeto
